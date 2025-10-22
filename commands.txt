@@ -6,5 +6,7 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocola
 
 choco install cloudflared
 
-python app2.py
+python server2.py
+python server.py
 cloudflared tunnel --url http://localhost:5000
+
